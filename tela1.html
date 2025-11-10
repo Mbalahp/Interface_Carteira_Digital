@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Cadastro</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container-branco">
+    <h1 class="titulo">Criar uma conta</h1>
+    <p class="subtitulo">Preencha seus dados para começar</p>
+    <form class="flex-col" autocomplete="off">
+      <div>
+        <label class="rotulo" for="nome">Nome completo</label>
+        <input id="nome" type="text" class="entrada" placeholder="Mbala Pinto" required>
+      </div>
+      <div>
+        <label class="rotulo" for="email">Email</label>
+        <input id="email" type="email" class="entrada" placeholder="voce@exemplo.com" required>
+      </div>
+      <div>
+        <label class="rotulo" for="senha">Senha</label>
+        <input id="senha" type="password" class="entrada" placeholder="Mínimo de 8 caracteres" required>
+      </div>
+      <button type="submit" class="botao botao-primario">Cadastrar</button>
+      <p class="subtitulo">
+        <a href="tela3.html" class="link">Já tem conta? Entrar</a> • 
+        <a href="tela2.html" class="link">Escolher perfil</a>
+      </p>
+    </form>
+  </div>
+</body>
+</html>

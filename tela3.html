@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Login</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container-branco">
+    <div class="flex justify-space">
+      <div>
+        <h1 class="titulo">Entrar na sua conta</h1>
+        <p class="subtitulo">Bem-vindo de volta</p>
+      </div>
+      <div class="botao botao-primario botao-app">App</div>
+    </div>
+
+    <a href="tela1.html" class="link">Criar uma conta</a>
+
+    <form class="flex-col">
+      <div>
+        <label class="rotulo" for="email">Email</label>
+        <input id="email" type="email" class="entrada" placeholder="voce@exemplo.com" required>
+      </div>
+      <div>
+        <label class="rotulo" for="senha">Senha</label>
+        <input id="senha" type="password" class="entrada" placeholder="••••••••" required>
+      </div>
+      <div class="flex justify-space">
+        <a href="#" class="link">Esqueci minha senha</a>
+        <button type="submit" class="botao botao-primario">Entrar</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
